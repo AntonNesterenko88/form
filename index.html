@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="submit">
+        <h1>Персональные данные</h1>
+         
+        <div>
+                <h2>Имя и фамилия</h2>
+
+                <div>
+                    <label for="name">
+                        Имя
+                    </label>
+                    <input id="name" type="text" name="name">
+                </div>
+
+                <br>
+                 
+                <div>
+                    
+                    <label for="lastName">
+                        Фамилия
+                    </label>
+                    <input id="lastName" type="text" name="lastName">
+                </div>
+
+                <div>
+                    <h2>
+                        Дата рождения
+                    </h2>
+                    <div>
+                        <label for="number">
+                            Число
+                        </label>
+
+                        <input id="number" type="number" name="number" min="1" max="31"> 
+                        
+
+                    </div> 
+                    <br>
+                    <div>
+                        <label for="month">
+                            Месяц
+                        </label>
+                        <select name="month" id="month">
+
+                            <option value="Январь">Январь</option>
+                            <option value="Февраль">Февраль</option>
+                            <option value="Март">Март</option>
+                            <option value="Апрель">Апрель</option>
+                            <option value="Май">Май</option>
+                            <option value="Июнь">Июнь</option>
+                            <option value="Июль">Июль</option>
+                            <option value="Август">Август</option>
+                            <option value="Сентябрь">Сентябрь</option>
+                            <option value="Октябрь">Октябрь</option>
+                            <option value="Ноябрь">Ноябрь</option>
+                            <option value="Декабрь">Декабрь</option>
+
+                        </select>
+
+                        
+        
+
+                         
+                    </div> 
+                    <div>
+                        <br>
+
+                        <div>
+                            <label for="year">
+                                Год
+                            </label>
+                            <input id="year" type="number" name="number" min="1945" max="2020">
+                        </div>
+                    </div>
+                </div>
+               <div>
+                    <div>
+                        <h2>Контактные данные</h2>
+                        <label for="email">
+                             Электронная почта"
+                        </label>
+                        <input type="email" name="email" id="email"> 
+                    </div>
+
+                <div>
+
+                    <br>
+
+                    <div>
+                        
+                        <label for="phoneNumber">
+                             Номер телефона
+                        </label>
+                        <input type="tel" name="tel" id="phoneNumber"> 
+                    </div>
+
+                    <br>
+
+                    <div>
+                        <h2>Подтверждение персональных данных</h2>
+                        <label for="resolve">
+                            Подтвердаете ли вы свои данные
+                        </label>
+                        <input type="checkbox" name="resolve" id="resolve">
+                    </div>
+
+                    <br> 
+
+                    <button type="reset">
+                        Отправить данные
+                    </button>
+
+                </div>
+
+
+               </div>
+
+        </div>
+
+        
+
+        
+
+    </form>
+
+    
+
+</body>
